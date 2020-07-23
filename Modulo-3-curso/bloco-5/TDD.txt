@@ -1,0 +1,17 @@
+O mocha por padrão vai buscar arquivos que estiverem na raiz do seu projeto, num diretorio chamado teste
+describe uma função, o primeiro argumento será uma descrição do que você estará testando
+o assert serve basicamente para disparar o erro de maneira automatizada
+No Mocha podemos escrever teste que ainda não existe
+Com a syxtax do only podemos focar em apenas um teste
+Com a syxtax do spik podemos deixar o teste pending e apenas um passando
+Before são hooks limpar mocks e limpar valores
+A biblioteca chamada chai pra quero não use o assert para melhorar a perda de legibilidade
+O chai vai o que o assert faz mais de uma maneira mais descritiva
+E também pode utilizar para validar objetos
+Quando dois objetos são iguais e voce tem que comparar eles no javascript podemos usar o {expect(obj).to.deep.equal(obj2)}
+Chai uma ferramenta super poderosa para se usar com o mocha
+https://www.chaijs.com/
+
+Casos de mocar funções, substituir métodos, mocar apis use a ferramenta usada sinon
+Com o spy do sinon podemos verificar se todas as funções estão passando 
+O stup você consegue substituir o método e colocar um return customizado

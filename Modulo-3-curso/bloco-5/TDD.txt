@@ -15,3 +15,4 @@ https://www.chaijs.com/
 Casos de mocar funções, substituir métodos, mocar apis use a ferramenta usada sinon
 Com o spy do sinon podemos verificar se todas as funções estão passando 
 O stup você consegue substituir o método e colocar um return customizado
+ A função do syp do sinon é Criar uma função ou interceptar a execução de uma outra função a fim de obter dados sobre como a mesma foi invocada.
